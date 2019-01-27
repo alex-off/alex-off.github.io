@@ -1,0 +1,168 @@
+html,body, ul,li {
+	margin: 0;
+	padding:0;
+}
+.wrapper{
+	max-width: 990px;
+	margin: 0 auto;
+	height:inherit;
+	overflow: hidden;
+	
+}
+header{
+	background:#f56262;
+	height:115px;
+}
+header #logo{
+	float: left;
+	margin-top: 15px;
+	margin-left: 20px;
+	
+}
+.logo{
+	color: white;
+	font-family:sans-serif;
+	float: left;
+	
+}
+
+#motion{
+	font-size:34px;
+	margin-bottom: 0px;
+	margin-top: 22px;
+}
+header .logo p#page{
+	clear:both;
+	/*padding: 0px;*/
+	margin-left: 20px;
+	margin-top: 3px;
+	
+}
+.menu{
+	float:right;
+	font-family:sans-serif;
+	color: white;
+	margin-top: 30px;
+	
+}
+.menu li{
+	display: inline;
+	margin-right: 20px;
+	font-size:18px;
+	
+}
+.menu li a{
+	color: inherit;
+	text-decoration: none;
+	line-height:55px;
+}
+li a:hover {
+    color: #ffe; 
+    background-color: #232324; 
+	background-size:150%;
+	
+   }
+
+.welcome{
+	background:#eb4f4e;
+	height:150px;
+}
+.welcome h1{
+	color: white;
+	text-align: center;
+	font-family:sans-serif;
+	margin-top: 40px;
+}
+.welcome h3{
+	color: white;
+	text-align: center;
+	font-family:sans-serif;
+}
+.smart{
+	background:#232324;
+	height:370px;
+}
+.smart h2{
+	color: white;
+	text-align: center;
+	font-family:sans-serif;
+	margin-top: 40px;
+}
+.smart p{
+	color: #eb4f4e;
+	text-align: center;
+	font-family:sans-serif;
+}
+.smart .item{
+	width:200px;
+	background: #232324;
+	padding: 5px 60px;
+	float:left;
+	margin-right:10px;
+}
+.item img{
+	display:block;
+    margin:auto;
+}
+.item h3{
+	color: white;
+	text-align: center;
+	font-family:sans-serif;
+}
+.talent{
+	background:#6cc372;
+	height:515px;
+}
+.talent h2{
+	color: white;
+	text-align: center;
+	font-family:sans-serif;
+	margin-top: 20px;
+}
+.talent p{
+	color: #232324;
+	text-align: center;
+	font-family:sans-serif;
+}
+.talent .team{
+	/*width:120px;*/
+	background: white;
+	padding: 5px 15px;
+	float:left;
+	margin-right:10px;
+	 border-radius: 5px;
+}
+.talent img{
+	display:block;
+    margin:auto;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+.talent .name{
+	color: #6cc372;
+	text-align: center;
+	font-family:sans-serif;
+}
+.talent .prof{
+	color: #eb4f4e;
+	text-align: center;
+	font-family:sans-serif;
+}
+footer{
+	background:#232324;
+	height:50px;
+}
+footer p {
+	color: white;
+	font-family:sans-serif;
+	float: left;
+}
+footer span {
+	color: #eb4f4e;
+	font-family:sans-serif;
+	
+}
+footer .soc{
+	float: right;
+	margin-top: 10px;
+}
